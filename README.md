@@ -17,7 +17,7 @@ In a nutshell we can profit from both: the advantages of the Arduino and the adv
 
 ## Installation
 
-1. First you need to install the Pico C Framwork. Please [follow the instructions](https://datasheets.raspberrypi.org/pico/getting-started-with-pico.pdf) and do not forget to define the PICO_SDK_PATH environment variable.
+1. First you need to install the Pico C Framwork. Please [follow the instructions](https://datasheets.raspberrypi.org/pico/getting-started-with-pico.pdf) and do not forget to define the PICO_SDK_PATH environment variable (REMEMBER TO USE '/' FOR PATH).
 
 The subsequent installation steps are only necessary, if you want to use the ArduinoSketch.cmake includes e.g. to build the provided examples:
 
@@ -26,7 +26,7 @@ The subsequent installation steps are only necessary, if you want to use the Ard
 ```
 git clone https://github.com/pschatzmann/pico-arduino
 ```
-2. Define the environment PICO_SDK_ARDUINO_PATH variable to point to the project location.
+2. Define the environment PICO_SDK_ARDUINO_PATH variable to point to the project location (REMEMBER TO USE '/' FOR PATH).
 
 
 ## Examples
