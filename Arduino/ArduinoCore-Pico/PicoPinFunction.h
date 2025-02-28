@@ -74,7 +74,7 @@ public:
         bool changed = false;
         if (current_adc != adc){
             Logger.printf(PicoLogger::Debug, "adc_select_input %d\n",adc);
-            adc_select_input((id_t)adc);
+            adc_select_input((uint)adc);
             current_adc = adc;
             changed = true;
         } 
